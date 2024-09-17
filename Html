@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Quantum kiddies</title>
+   <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image: url( );
+      background-size: cover;
+      background-position: center;
+    }
+  h1,h3,h2{
+    color: brown
+  }
+  </style>
+</head>
+<body>
+  <!-- Rest of the code remains the same -->
+</head>
+<body>
+  <a href="qlcs.jpg">
+    <img src="   OwnSticker_20240903_210255500.png  "alt="Quantum kiddies"height="150px"width="300px">
+  </a>
+  
+  <big><bold><h1>Quantum leap kiddies</h1></bold></big>
+  </h1>
+Welcome to Quantum kiddies , where learning, growth, and community come together!
+
+As you step through our doors, know that you're becoming part of a vibrant family that values curiosity, creativity, and kindness. Our dedicated teachers, staff, and students are here to support and inspire you every step of the way.
+
+We're excited to see the unique talents, perspectives, and passions you bring to our campus. Whether you're a returning student or joining us for the first time, we're honored to have you as part of our journey.
+
+Here, you'll find a safe space to explore, learn, and thrive. So take a deep breath, be yourself, and get ready to make unforgettable memories with us!
+<br><h2>Facilities and Resources</h2></br>
+At Quantum kiddies, we are committed to providing a supportive and inclusive learning environment that fosters academic success, creativity, and personal growth. Our state-of-the-art facilities and resources include:
+
+<br><h3>Modern Classrooms:</h3> Spacious, well-lit, and equipped with interactive whiteboards and comfortable seating.
+<br><h3>Library and Media Center:</br></h3> A vast collection of books, journals, and digital resources, as well as quiet study areas and collaborative workspaces.
+<br><h3>Sports and Fitness Facilities:</br></h3> Indoor and outdoor spaces for physical education, sports, and recreation, including a gymnasium, playground, and fields.
+
+These facilities and resources are designed to provide our students with a comprehensive and well-rounded education, preparing them for success in all aspects of life.
+<section id="contact">
+  <h2>Get in Touch</h2>
+  <p>If you have any questions, comments, or would like to learn more about our school, please don't hesitate to reach out.</p>
+  <ul>
+    <li><strong>Phone:</strong> <a href="tel:+234 703 860 7517">  +234 703 860 7517 </a></li>
+    <li><strong>Phone:</strong> <a href="tel:08034434185"> +234 803 443 4185</a></li>
+    <li><strong>Email:</strong> <a href="mailto:info@schoolname.edu">info@schoolname.edu</a></li>
+    <li><strong>Address:</strong> Oyeniyan beside Tesmore filling station</li>
+  </ul>
+  <h3>Office Hours:</h3>
+  <ul>
+    <li>Monday:8:10 am - 3:30pm</li>
+    <li>Friday:8:10 am - 1:00pm</li>
+    <li>Saturday - Sunday: Closed</li>
+  </ul>
+  <h3>Follow Us:</h3>
+  <ul>
+    <li><a href="https://www.facebook.com/profile.php?id=100067357189112 " target="_blank">Facebook</a></li>
+  </ul>
+  <h3>Contact Form:</h3>
+  <big><h1><form action="send_email.php" method="post">
+    <br><input type="text" name="name" placeholder="Name"></br>
+    <br><input type="email" name="email" placeholder="Email"></br>
+    <br><textarea name="message" placeholder="Message"></textarea>
+<button type="submit" class="send-button">
+  <span>Send</span>
+  <i class="fa fa-paper-plane" aria-hidden="true"></i>
+</button>
+    <style>
+.send-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: grey;
+}
+
+.send-button i {
+  margin-left: 5px;
+}
+    </style>  
+  </form></big></h1>
+</section>
+<?php
+  $to = "adexsj07@gmail.com"; // Replace with your email
+  $subject = "Contact Form Submission";
+  $name = $_POST["name"];
+  $email = $_POST["email"];
+  $message = $_POST["message"];
+  
+  $headers = "From: " . $email . "\r\n";
+  mail($to, $subject, $message, $headers);
+  
+  echo "Sent successfully!";
+?>
+  <footer>
+    <p>&copy;Webros | All rights reserved </p>
+  </footer>
+</body>
+</html>
